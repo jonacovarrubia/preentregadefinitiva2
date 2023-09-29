@@ -1,0 +1,27 @@
+
+body {
+    background-image: url('../imagenes/fondopizza.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #ff0000; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff; 
+}
+
+.menu-item {
+    padding: 20px;
+}
+
+.pizza-image {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}

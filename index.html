@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería deliciosa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación fija -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pizzería Deliciosa</a>
+            <!-- Botón de menú para dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item menu-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link" href="#menu">Menú</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Sección de Inicio -->
+<section id="inicio" class="py-5 text-center text-light">
+    <div class="container">
+        <!-- Título e introducción -->
+          <h2 class="text-center text-light">Bienvenidos!!</h2>
+        <h2 class="text-center text-light">La mejor pizza en la ciudad.</h2>
+
+        <!-- Imagen de la mejor pizza -->
+        <div class="pizza-image">
+            <img src="assets/imagenes/principalpizza.jpg" alt="La Mejor Pizza" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+    <!-- Sección de Menú -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-light">Nuestro Menú</h2>
+            <div class="row">
+                <!-- Pizza 1 -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="" alt="Pizza 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Margarita</h5>
+                            <p class="card-text">Tomate, mozzarella, albahaca.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pizza 2 -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="assets/imagenes/margapizza.jpg" alt="Pizza 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Pepperoni</h5>
+                            <p class="card-text">Tomate, mozzarella, pepperoni.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pizza 3 -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="assets/imagenes/hawaiana.jpg" alt="Pizza 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza Hawaiana</h5>
+                            <p class="card-text">Tomate, mozzarella, jamón, piña.</p>
+                            <p class="card-text">$6000.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5 text-center text-light">
+        <div class="container">
+            <h2>¡Contáctenos!</h2>
+            <p>Puede llamarnos al: (123) 456-7890 o enviarnos un correo electrónico a: info@pizzeriadeliciosa.com</p>
+        </div>
+    </section>
+<footer>
+
+
+</footer>
+    <!-- Scripts de Bootstrap y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+k8HXLmxL7z2as8ELgC1jcbbw/" crossorigin="anonymous"></script>
+</body>
+</html>
